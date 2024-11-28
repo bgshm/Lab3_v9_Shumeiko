@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://communitytoolkit.maui"
+             x:Class="Lab3_v9_Shumeiko.MainPage"
+             Title="JSON Editor">
+    <VerticalStackLayout Padding="10">
+        <HorizontalStackLayout>
+            <Button Text="Завантажити файл" Clicked="OnLoadFileClicked" />
+            <Button Text="Додати" Clicked="OnAddClicked" />
+            <Button Text="Видалити" Clicked="OnRemoveClicked" />
+            <Button Text="Зберегти" Clicked="OnSaveClicked" />
+            <Button Text="Про програму" Clicked="OnAboutButtonClicked" />
+            <Button Text="Вихід" Clicked="OnExitButtonClicked" />
+        </HorizontalStackLayout>
+
+        <StackLayout Orientation="Horizontal" Padding="10">
+            <Picker x:Name="CategoryPicker" WidthRequest="150">
+                <Picker.Items>
+                    <x:String>Category</x:String>
+                    <x:String>Name</x:String>
+                    <x:String>Description</x:String>
+                    <x:String>Type</x:String>
+                    <x:String>Version</x:String>
+                    <x:String>Author</x:String>
+                    <x:String>Terms</x:String>
+                    <x:String>Distribution</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Entry x:Name="KeywordEntry" WidthRequest="200" Placeholder="Введіть ключове слово"/>
+
+            <Button Text="Пошук" Clicked="OnSearchClicked"/>
+
+            <Button Text="Назад" Clicked="OnBackClicked"/>
+        </StackLayout>
+
+        <Grid ColumnDefinitions="2*,3*,4*,2*,2*,2*,2*,3*" Padding="5" BackgroundColor="LightGray">
+            <Label Grid.Column="0" Text="Category" FontAttributes="Bold" FontSize="16" HorizontalTextAlignment="Center" />
+            <Label Grid.Column="1" Text="Name" FontAttributes="Bold" FontSize="16" HorizontalTextAlignment="Center" />
+            <Label Grid.Column="2" Text="Description" FontAttributes="Bold" FontSize="16" HorizontalTextAlignment="Center" />
+            <Label Grid.Column="3" Text="Type" FontAttributes="Bold" FontSize="16" HorizontalTextAlignment="Center" />
+            <Label Grid.Column="4" Text="Version" FontAttributes="Bold" FontSize="16" HorizontalTextAlignment="Center" />
+            <Label Grid.Column="5" Text="Author" FontAttributes="Bold" FontSize="16" HorizontalTextAlignment="Center" />
+            <Label Grid.Column="6" Text="Terms" FontAttributes="Bold" FontSize="16" HorizontalTextAlignment="Center" />
+            <Label Grid.Column="7" Text="Distribution" FontAttributes="Bold" FontSize="16" HorizontalTextAlignment="Center" />
+        </Grid>
+
+        <CollectionView x:Name="DataGrid" ItemsSource="{Binding DataItems}" SelectionMode="Single" VerticalOptions="FillAndExpand">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid ColumnDefinitions="2*,3*,4*,2*,2*,2*,2*,3*" Padding="5">
+                        <Entry Grid.Column="0" Text="{Binding Category}" />
+                        <Entry Grid.Column="1" Text="{Binding Name}" />
+                        <Entry Grid.Column="2" Text="{Binding Description}" />
+                        <Entry Grid.Column="3" Text="{Binding Type}" />
+                        <Entry Grid.Column="4" Text="{Binding Version}" />
+                        <Entry Grid.Column="5" Text="{Binding Author}" />
+                        <Entry Grid.Column="6" Text="{Binding Terms}" />
+                        <Entry Grid.Column="7" Text="{Binding Distribution}" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </VerticalStackLayout>
+</ContentPage>

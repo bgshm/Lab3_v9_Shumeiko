@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab3_v9_Shumeiko", "Lab3_v9_Shumeiko\Lab3_v9_Shumeiko.csproj", "{8F01CBF6-BCE6-4E38-B6C8-AE20DA24C834}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F01CBF6-BCE6-4E38-B6C8-AE20DA24C834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F01CBF6-BCE6-4E38-B6C8-AE20DA24C834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F01CBF6-BCE6-4E38-B6C8-AE20DA24C834}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8F01CBF6-BCE6-4E38-B6C8-AE20DA24C834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F01CBF6-BCE6-4E38-B6C8-AE20DA24C834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F01CBF6-BCE6-4E38-B6C8-AE20DA24C834}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E306EBA-FFB3-484A-B9FA-FBBC94A4B90C}
+	EndGlobalSection
+EndGlobal

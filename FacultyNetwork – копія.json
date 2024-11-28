@@ -1,0 +1,144 @@
+{
+  "FacultyNetwork": [
+    {
+      "Category": "Development Tools",
+      "Name": "Visual Studio",
+      "Description": "Integrated Development Environment by Microsoft",
+      "Type": "IDE",
+      "Version": "2019",
+      "Author": "Microsoft",
+      "Terms": "Commercial",
+      "Distribution": "Online Installer"
+    },
+    {
+      "Category": "Development Tools",
+      "Name": "Android Studio",
+      "Description": "Android Development Environment by Google",
+      "Type": "IDE",
+      "Version": "4.1",
+      "Author": "Google",
+      "Terms": "Free",
+      "Distribution": "Offline Installer"
+    },
+    {
+      "Category": "Data Analysis",
+      "Name": "Jupyter Notebook",
+      "Description": "Interactive notebooks for data analysis and visualization",
+      "Type": "Notebook",
+      "Version": "6.0",
+      "Author": "Jupyter Community",
+      "Terms": "Open Source",
+      "Distribution": "Package Manager"
+    },
+    {
+      "Category": "Data Analysis",
+      "Name": "RStudio",
+      "Description": "IDE for R programming language",
+      "Type": "IDE",
+      "Version": "1.3",
+      "Author": "RStudio, PBC",
+      "Terms": "Open Source",
+      "Distribution": "Package Manager"
+    },
+    {
+      "Category": "Security Tools",
+      "Name": "Kaspersky",
+      "Description": "Comprehensive antivirus solution",
+      "Type": "Antivirus",
+      "Version": "2023",
+      "Author": "Kaspersky Lab",
+      "Terms": "Paid",
+      "Distribution": "Online Installer"
+    },
+    {
+      "Category": "Security Tools",
+      "Name": "McAfee",
+      "Description": "Antivirus and anti-malware protection",
+      "Type": "Antivirus",
+      "Version": "2022",
+      "Author": "McAfee, Inc.",
+      "Terms": "Subscription",
+      "Distribution": "Offline Installer"
+    },
+    {
+      "Category": "Web Browsers",
+      "Name": "Google Chrome",
+      "Description": "Popular web browser developed by Google",
+      "Type": "Browser",
+      "Version": "115.0",
+      "Author": "Google",
+      "Terms": "Free",
+      "Distribution": "Online Installer"
+    },
+    {
+      "Category": "Web Browsers",
+      "Name": "Mozilla Firefox",
+      "Description": "Open-source web browser",
+      "Type": "Browser",
+      "Version": "118.0",
+      "Author": "Mozilla Foundation",
+      "Terms": "Free",
+      "Distribution": "Package Manager"
+    },
+    {
+      "Category": "Graphic Design",
+      "Name": "Adobe Photoshop",
+      "Description": "Professional photo editing software",
+      "Type": "Editor",
+      "Version": "2024",
+      "Author": "Adobe Inc.",
+      "Terms": "Subscription",
+      "Distribution": "Online Installer"
+    },
+    {
+      "Category": "Graphic Design",
+      "Name": "CorelDRAW",
+      "Description": "Vector graphic design software",
+      "Type": "Editor",
+      "Version": "24.0",
+      "Author": "Corel Corporation",
+      "Terms": "Commercial",
+      "Distribution": "Offline Installer"
+    },
+    {
+      "Category": "Communication Tools",
+      "Name": "Slack",
+      "Description": "Team communication and collaboration platform",
+      "Type": "Messaging",
+      "Version": "4.29",
+      "Author": "Slack Technologies",
+      "Terms": "Freemium",
+      "Distribution": "Online Installer"
+    },
+    {
+      "Category": "Communication Tools",
+      "Name": "Microsoft Teams",
+      "Description": "Business communication platform",
+      "Type": "Messaging",
+      "Version": "1.5",
+      "Author": "Microsoft",
+      "Terms": "Subscription",
+      "Distribution": "Online Installer"
+    },
+    {
+      "Category": "Cloud Storage",
+      "Name": "Google Drive",
+      "Description": "Cloud file storage and synchronization service",
+      "Type": "Service",
+      "Version": "3.56",
+      "Author": "Google",
+      "Terms": "Freemium",
+      "Distribution": "Online"
+    },
+    {
+      "Category": "Cloud Storage",
+      "Name": "Dropbox",
+      "Description": "File hosting service offering cloud storage",
+      "Type": "Service",
+      "Version": "161.2",
+      "Author": "Dropbox, Inc.",
+      "Terms": "Freemium",
+      "Distribution": "Online"
+    }
+  ]
+}
